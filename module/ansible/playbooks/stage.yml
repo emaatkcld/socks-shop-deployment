@@ -11,7 +11,7 @@
 
     - name: Clone or Update Application Repo
       git:
-        repo: https://github.com/CloudHight/US-Team-Sock-Shop-App-Repo.git
+        repo: https://github.com/emaatkcld/socks-shop-app.git
         dest: /home/ubuntu/US-Team-Sock-Shop-App-Repo
       when: not repo_exists.stat.exists
 

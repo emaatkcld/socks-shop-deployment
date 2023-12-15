@@ -135,12 +135,12 @@ module "monitoring-lb" {
 
 module "route53" {
   source            = "./module/route53-ssl"
-  domain-name       = "eamanzebuzz.com"
-  domain-name1      = "stage.eamanzebuzz.com"
-  domain-name2      = "prod.eamanzebuzz.com"
-  domain-name3      = "graf.eamanzebuzz.com"
-  domain-name4      = "prom.eamanzebuzz.com"
-  domain-name5      = "*.eamanzebuzz.com"
+  domain-name       = "gattag.net"
+  domain-name1      = "stage.gattag.net"
+  domain-name2      = "prod.gattag.net"
+  domain-name3      = "graf.gattag.net"
+  domain-name4      = "prom.gattag.net"
+  domain-name5      = "*.gattag.net"
   stage_lb_dns_name = module.environment-lb.stage-dns-name
   stage_lb_zoneid   = module.environment-lb.stage-zoneid
   prod_lb_dns_name  = module.environment-lb.prod-dns-name
