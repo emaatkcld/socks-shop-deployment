@@ -1,0 +1,14 @@
+variable "domain-name" {}
+variable "domain-name1" {}
+variable "domain-name2" {}
+variable "domain-name3" {}
+variable "domain-name4" {}
+variable "domain-name5" {}
+variable "stage_lb_dns_name" {}
+variable "stage_lb_zoneid" {}
+variable "prod_lb_dns_name" {}
+variable "prod_lb_zoneid" {}
+variable "graf_lb_dns_name" {}
+variable "graf_lb_zoneid" {}
+variable "prom_lb_dns_name" {}
+variable "prom_lb_zoneid" {}

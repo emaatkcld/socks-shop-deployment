@@ -1,0 +1,9 @@
+variable "vpc-id" {}
+variable "stage-tg-name" {}
+variable "prodtg" {}
+variable "instance" {}
+variable "lb-sg" {}
+variable "subnet-id" {}
+variable "tag-stage-alb" {}
+variable "tag-prod-alb" {}
+variable "certificate_arn" {}
