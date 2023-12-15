@@ -1,12 +1,12 @@
 locals {
 name      = "sskpuaet1"
-prvtsub01 = "subnet-0163b7b0ae8ddffeb"
-prvtsub02 = "subnet-03b97be04f58bd271"
-prvtsub03 = "subnet-093a8d29fad0b4b65"
-pubsub01-id = "subnet-00726c69b2fe806f1"
-pubsub02-id = "subnet-0dcada2b698dcc0e0"
-pubsub03-id = "subnet-0d339320ed05d28ff"
-vpc-id = "vpc-0ab04eda3fc009c2a"
+prvtsub01 = "subnet-06ad75eda8664f10f"
+prvtsub02 = "subnet-06797fd84590b7a8c"
+prvtsub03 = "subnet-05dd4110acea35002"
+pubsub01-id = "subnet-0ee32c83ed536302e"
+pubsub02-id = "subnet-0d945959975c44a2a"
+pubsub03-id = "subnet-0761eee80f65e11ad"
+vpc-id = "vpc-01446c351eb9b02e7"
 }
 
 data "aws_vpc" "vpc" {
